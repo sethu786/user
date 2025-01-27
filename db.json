@@ -1,8 +1,7 @@
-
 {
     "/api/articles": {
       "GET": {
-        "action": "db.articles"
+        "action": "db.articles
       },
       "POST": {
         "action": "db.articles.push(req.body)",
